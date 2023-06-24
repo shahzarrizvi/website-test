@@ -1,20 +1,25 @@
 ---
-title: Week 1
+title: 'Week 1: The Fundamentals'
 ---
 
+Jun 19
+: *Juneteenth Holiday*
+
 Jun 20
-: **Lecture 1**{: .label .label-lecture } [Course Overview](lecture/lec01)
-    : [Note 1](https://ds100.org/course-notes-su23/intro_lec/introduction.html)
-: **Lab 1**{: .label .label-lab } [Prerequisite Coding](http://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsu23-materials&branch=main&urlpath=lab%2Ftree%2Fsu23-materials%2Flab%2Flab01%2Flab01.ipynb){:target="_blank"} (due Jun 24)
-: **Homework 1A**{: .label .label-hw } [Plotting and the Permutation Test](http://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsu23-materials&branch=main&urlpath=lab%2Ftree%2Fsu23-materials%2Fhw%2Fhw01%2Fhw01.ipynb){:target="_blank"} (due Jun 26)
-: **Homework 1B**{: .label .label-hw } [Prerequisite Math](https://drive.google.com/file/d/1yWakQTRRdyA-etJG-nwptXmECnO2phLC/view?usp=share_link){:target="_blank"} (due Jun 26)
+: **Lecture 1**{: .label .label-lecture } Fundamentals, exact calculations, and bounds 
+    : [Syllabus](syllabus), Ch [1.1 - 1.2](http://stat88.org/textbook/content/Chapter_01/00_The_Basics.html)
+: [**Homework 1**{: .label .label-hw }](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_01.ipynb) 
+    : [Due Jun 26 at 11:59 PM](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_01.ipynb)
+: **Section 1**{: .label .label-disc } 
+    : Ch 1 [Ex 1, 3, 5, 2, 4](http://stat88.org/textbook/content/Chapter_01/04_Exercises.html)
 
 Jun 21
-: **Lecture 2**{: .label .label-lecture } [Pandas I](lecture/lec02)
-    : [Note 2](https://ds100.org/course-notes-su23/pandas_1/pandas_1.html)
-: **Discussion 1**{: .label .label-disc } [Math Prerequisites](https://drive.google.com/file/d/1vOVxBK1Lr1tQ2V_V2aYqdTAXIllRTicD/view?usp=sharing)
-    : [Solution](https://drive.google.com/file/d/17WuF16jEFQyl8mRv0il7MjSyQ9RDDgPN/view?usp=sharing)
+: **Lecture 2**{: .label .label-lecture } The rules; intersections and conditioning 
+    : Ch [1.3](http://stat88.org/textbook/content/Chapter_01/03_Fundamental_Rules.html), [2.1 - 2.2](http://stat88.org/textbook/content/Chapter_02/00_Intersections_and_Conditioning.html)
+
 
 Jun 22
-: **Lecture 3**{: .label .label-lecture } [Pandas II](lecture/lec03)
-    : [Note 3](https://ds100.org/course-notes-su23/pandas_2/pandas_2.html)
+: **Lecture 3**{: .label .label-lecture } Updating chances; independence 
+    : Ch [2.3 - 2.5](http://stat88.org/textbook/content/Chapter_02/03_Bayes_Rule.html)
+: **Section 2**{: .label .label-disc }
+    : Ch 2 [Ex 7, 5, 10, 4, 11, 6](http://stat88.org/textbook/content/Chapter_02/06_Exercises.html)

@@ -1,18 +1,18 @@
 ---
-title: Week 8
+title: 'Week 8: Review and Final Exam'
 ---
 
 Aug 7
-: **Lecture 25**{: .label .label-lecture } Clustering
-: **Discussion 14**{: .label .label-disc } PCA
-: **Lab 13**{: .label .label-lab } Clustering <i>(optional)</i>
+: **Lecture 27**{: .label .label-lecture } Buffer/Review
+: **Section 13**{: .label .label-disc }
 
 Aug 8
-: **Lecture 26**{: .label .label-lecture} Closing
+: **Lecture 28**{: .label .label-lecture } Buffer/Review
+
 
 Aug 9
-: <i>Break (no lecture)</i>
-: **Discussion 15**{: .label .label-disc } Clustering, Final Review
+: **Lecture 29**{: .label .label-lecture } Buffer/Review
+: **Section 14**{: .label .label-disc }
 
 Aug 10
-: **Final**{: .label .label-exam } Final Exam (5-7 PM)
+: **Final Exam**{: .label .label-exam } From 10:30 AM - 1:30 PM

@@ -1,19 +1,24 @@
 ---
-title: Week 5
+title: 'Week 5: The Central Limit Theorem, Hypothesis Testing, and Densities'
 ---
 
 Jul 17
-: **Lecture 14**{: .label .label-lecture } HCE
-: **Discussion 8**{: .label .label-disc } Gradient Descent, Feature Engineering
-: **Lab 8**{: .label .label-lab } Model Selection (due Jul 22)
-: **Project A2**{: .label .label-hw } Housing II (due Jul 24)
+: **Lecture 15**{: .label .label-lecture } Central Limit Theorem
+    : Ch [8.1 - 8.4](http://stat88.org/textbook/content/Chapter_08/00_Central_Limit_Theorem.html)
+: **Homework 5**{: .label .label-hw }
+    : Due Jul 24 at 11:59 PM
+: **Section 9**{: .label .label-disc }
 
 Jul 18
-: **Lecture 15**{: .label .label-lecture} Cross-Validation, Regularization
+: **Lecture 16**{: .label .label-lecture } Confidence intervals
+    : Ch [9.1 - 9.2](http://stat88.org/textbook/content/Chapter_09/00_Inference.html)
+
 
 Jul 19
-: <i>Break (no lecture)</i>
-: **Discussion 9**{: .label .label-disc } Exam Review
+: **Lecture 17**{: .label .label-lecture } Testing hypotheses
+    : Ch [9.3 - 9.4](http://stat88.org/textbook/content/Chapter_09/03_Testing_Hypotheses.html)
+: **Section 10**{: .label .label-disc } **Quiz 4**{: .label .label-quiz }
 
 Jul 20
-: **Midterm**{: .label .label-exam } Midterm Exam (5-7 PM)
+: **Lecture 18**{: .label .label-lecture } Probability density
+    : Ch [10.1](http://stat88.org/textbook/content/Chapter_10/00_Probability_Density.html)

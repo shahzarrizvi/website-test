@@ -1,21 +1,23 @@
 ---
-title: Week 3
+title: 'Week 3: The Poisson Distribution and Expectation'
 ---
 
 Jul 3
-: <i>Break (no lecture)</i>
-: **Discussion 4**{: .label .label-disc } Regex <i>(optional)</i>
-: **Lab 4**{: .label .label-lab } Transformation (due Jul 8)
-: **Lab 5**{: .label .label-lab } Modeling, Summary Statistics, Loss Functions (due Jul 8)
-: **Homework 4**{: .label .label-hw } Bike Sharing (Visualization) (due Jul 6)
+: **Lecture 8**{: .label .label-lecture } Law of small numbers; Poisson
+    : Ch [4.4](http://stat88.org/textbook/content/Chapter_04/04_The_Poisson_Distribution.html)
+: **Homework 3**{: .label .label-hw }
+    : Due Jul 10 at 11:59 PM
+: **Section 5**{: .label .label-disc }
 
 Jul 4
-: <i>Independence Day (no lecture)</i>
+: *Independence Day Holiday*
+
 
 Jul 5
-: **Lecture 8**{: .label .label-lecture } Sampling
-: **Discussion 5**{: .label .label-disc } Visualization
+: **Lecture 9**{: .label .label-lecture } Expectation and additivity
+    : Ch [5.1 - 5.3](http://stat88.org/textbook/content/Chapter_05/00_Expectation.html)
+: **Section 6**{: .label .label-disc } **Quiz 2**{: .label .label-quiz }
 
 Jul 6
-: **Lecture 9**{: .label .label-lecture } Modeling, SLR
-: **Homework 5**{: .label .label-hw } Modeling (due Jul 10)
+: **Lecture 10**{: .label .label-lecture } Unbiased estimators
+    : Ch [5.4](http://stat88.org/textbook/content/Chapter_05/04_Unbiased_Estimators.html)
