@@ -20,6 +20,7 @@ author: Shahzar
 #baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
 url: 'https://stat88.org' # the base hostname & protocol for your site, e.g. http://example.com
 logo: 'assets/brand/logo.png'
+favicon_ico: 'assets/brand/favicon.ico'
 #exclude:
 #  - Gemfile
 #  - Gemfile.lock
@@ -36,6 +37,7 @@ color_scheme: wider
 search_enabled: true
 permalink: pretty
 heading_anchors: false
+
 aux_links:
   Textbook:
     - 'http://stat88.org/textbook/'
@@ -43,6 +45,7 @@ aux_links:
     - 'https://edstem.org/us/courses/40833/'
   Gradescope:
     - 'https://www.gradescope.com/courses/552084'
+
 nav_external_links:
   - title: Textbook
     url: textbook
