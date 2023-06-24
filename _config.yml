@@ -13,12 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Data 100
-description: Principles and Techniques of Data Science
-author: Dominic Liu, Mihran Miroyan
-baseurl: '/su23' # the subpath of your site, e.g. /blog
-url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
-logo: 'resources/assets/favicon/logo.png'
+title: Data 88S
+tagline: Probability and Mathematical Statistics for Data Science
+description: The course website for UC Berkeley's Data C88S course.
+author: Shahzar
+#baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
+url: 'https://stat88.org' # the base hostname & protocol for your site, e.g. http://example.com
+logo: 'assets/brand/logo.png'
 #exclude:
 #  - Gemfile
 #  - Gemfile.lock
