@@ -1,23 +1,21 @@
 ---
-title: Basic Data Structures
+title: Week 2
 ---
 
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Jun 26
+: **Lecture 4**{: .label .label-lecture } Pandas III, EDA I
+: **Discussion 2**{: .label .label-disc } Pandas
+: **Lab 2**{: .label .label-lab } Pandas (due Jul 1)
+: **Lab 3**{: .label .label-lab } Data Cleaning and EDA (due Jul 1)
+: **Homework 2**{: .label .label-hw } Pandas (due Jun 29)
 
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
+Jun 27
+: **Lecture 5**{: .label .label-lecture} EDA II
 
-Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
+Jun 28
+: **Lecture 6**{: .label .label-lecture } Text Wrangling, Regex
+: **Discussion 3**{: .label .label-disc } EDA
 
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
-
-Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }
+Jun 29
+: **Lecture 7**{: .label .label-lecture } Visualization
+: **Homework 3**{: .label .label-hw } Tweets (due Jul 3)
