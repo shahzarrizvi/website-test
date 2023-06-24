@@ -51,14 +51,22 @@ nav_external_links:
     url: textbook
     hide_icon: false # set to true to hide the external link icon - defaults to false
 
-
 # Collections for website data
 collections:
-  - modules
-  - announcements
-  - staffers
+  staffers:
+  modules:
+  schedules:
+  announcements:
 # Default layouts for each collection type
 defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      height: 300
+      subpath: '/assets/images/'
+      width: 300
   - scope:
       path: ''
       type: modules
@@ -66,15 +74,14 @@ defaults:
       layout: module
   - scope:
       path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
       type: announcements
     values:
       layout: announcement
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
-      subpath: '/assets/images/'
 
 callouts:
   highlight:
