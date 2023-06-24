@@ -74,6 +74,7 @@ defaults:
       type: staffers
     values:
       layout: staffer
+      subpath: '/assets/images/'
 
 callouts:
   highlight:
