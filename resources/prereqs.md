@@ -7,7 +7,7 @@ description: The prerequisites for the class.
 # Math Prerequisities #
 #### A. Adhikari ####
 
-**The [course](http://prob140.org/textbook/content/README.html) assumes [fluency](http://prob140.org/fluency/) with all of the math below.** These concepts, results, and methods will be used without explanation. If you've forgotten some of it, please review the relevant materials. The more confident you are with this math content, the faster you will be able to grasp the material of the course.
+**The [course](http://prob140.org/textbook/content/README.html) assumes [fluency](fluency) with all of the math below.** These concepts, results, and methods will be used without explanation. If you've forgotten some of it, please review the relevant materials. The more confident you are with this math content, the faster you will be able to grasp the material of the course.
 
 **Please do the exercises.** They are based on calculations that come up frequently. 
 
