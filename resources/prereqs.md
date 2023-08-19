@@ -39,8 +39,11 @@ Notice the distinction between *sequences* (orderings, or "arrangements in a lin
 **b)** in a circle?
 
 
-<details open markdown = "block">
-    <summary>Answer BC1</summary>
+<details markdown = "block">
+    <summary>
+        Answer BC1
+    </summary>
+    {: .text-delta }
     a) 720
     b) 120
 </details>  
