@@ -1,9 +1,16 @@
 ---
 layout: page
 title: Resources
-nav_order: 7
 description: Resources and references for the class.
 ---
+# Resources #
+{:.no_toc}
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ### Mathematics Prerequisites
 - Math prereqs by chapter, summaries, and some exercises are [here](http://prob140.org/prereqs). 
