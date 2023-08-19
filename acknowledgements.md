@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acknowledgements, and the Logo
+title: Acknowledgements
 nav_order: 6
 description: The acknowledgements.
 ---
