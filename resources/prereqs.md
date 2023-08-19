@@ -73,20 +73,20 @@ Summation notation will be used throughout the term. For Chapters 1-7 you just n
 - You should understand (not just memorize) the first two sums in Section 2.1 on Page 5, and the first two identities in Section 2.2 on Page 6. There's a typo in the second one. It should read
 
 $$
-\sum_{i \in S} (x_i + y_i) ~ = ~ \sum_{i \in S} x_i + \sum_{i \in S} y_i
+\sum_{i \in S} (x_i + y_i) ~ = ~ \sum_{i \in S} x_i + \sum_{i \in S} y_i.
 $$
 
 - Section 2.3 has excellent advice.
 - In [Chapter 4](http://prob140.org/textbook/content/Chapter_04/01_Joint_Distributions.html) of the textbook you'll start working with double sums. The main idea is in Section 1.7 on Pages 4-5 of the Prof. Aspnes notes linked above; note the analogy with nested `for` loops. Useful properties are in the latter half of Section 2.2.
 
-**Exercise S1:** Consider the sequence defined by $c_i =i$, for $i=1, 2, \ldots , 10$. If possible, find $\sum_{k=1}^{10} c_k$.  If this is not possible, explain why not.
+**Exercise S1:** Consider the sequence defined by $$c_i =i$$, for $$i=1, 2, \ldots , 10$$. If possible, find $$\sum_{k=1}^{10} c_k$$.  If this is not possible, explain why not.
 
 <details>
     <summary>Answer S1</summary>
     55
 </details> 
 
-**Exercise S2:** Does the expression $\sum_{n=1}^{10} 2$ make sense?  If it does, what is its value?
+**Exercise S2:** Does the expression $$\sum_{n=1}^{10} 2$$ make sense?  If it does, what is its value?
 
 <details>
     <summary>Answer S2</summary>
@@ -173,7 +173,7 @@ $$
 
 ### <span style="color: darkblue">The Exponential and Log Functions</span> ###
 
-**NOTE: All $$\log$$s in this class, and in almost all of math, are natural logarithms taken to the base $e$.**
+**NOTE: All $$\log$$s in this class, and in almost all of math, are natural logarithms taken to the base $$e$$.**
 
 You know that $$\log(1) = 0$$. What we're going to need, quite often, is an approximation for the log of a number that is very close to 1. A crude approximation is 0 because the number is close to 1. But we'll use a finer approximation based on the first couple of terms in a related Taylor expansion.
 
