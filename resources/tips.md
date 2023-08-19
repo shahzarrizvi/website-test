@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Study Tips from Staff and Students
+nav_exclude: true
 ---
 
 #### A. Adhikari ####

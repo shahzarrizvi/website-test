@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Math Fluency
+nav_exclude: true
 ---
 
 #### A. Adhikari ####

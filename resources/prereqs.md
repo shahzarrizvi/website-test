@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Math Prerequisites
+nav_exclude: true
 description: The prerequisites for the class.
 ---
 # Math Prerequisities #
