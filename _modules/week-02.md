@@ -1,29 +1,19 @@
 ---
-title: 'Week 2: Random Variables and Random Counts'
+title: 'Week 2: Random Variables and Symmetry'
 ---
 
-Jun 26
-: **Lecture 4**{: .label .label-lecture } Random variables
-    : Ch [3.1 - 3.2](http://stat88.org/textbook/content/Chapter_03/00_Random_Counts.html)
-: [**Homework 2**{: .label .label-hw }](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_02.ipynb)
-    : [Due Jul 3 at 11:59 PM](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_02.ipynb)
+Aug 29
+: **Lecture 2**{: .label .label-lecture } Random variables: distributions, equality, conditioning
+    : Ch [3](http://prob140.org/textbook/content/Chapter_03/00_Random_Variables.html), [4](http://prob140.org/textbook/content/Chapter_04/00_Relations_Between_Variables.html)
+: **Homework 2**{: .label .label-hw }
+    : Due Sep 4 at 5 PM
 
-Jun 27
-: **Lecture 5**{: .label .label-lecture } Random counts: binomial
-    : Ch [3.3](http://stat88.org/textbook/content/Chapter_03/03_The_Binomial_Distribution.html)
-: **Section 3**{: .label .label-disc }
-    : Ch [3 Ex 1, 2, 7, 9, 3, 8](http://stat88.org/textbook/content/Chapter_03/06_Exercises.html)
+Aug 30
+: **Section 1**{: .label .label-disc}
 
+Aug 31
+: **Lecture 3**{: .label .label-lecture} Symmetry and collections of events
+    : Ch [5](http://prob140.org/textbook/content/Chapter_05/00_Collections_of_Events.html)
 
-Jun 28
-: **Lecture 6**{: .label .label-lecture } Random counts: hypergeometric
-    : Ch [3.4 - 3.5](http://stat88.org/textbook/content/Chapter_03/04_The_Hypergeometric_Distribution.html)
-
-
-Jun 29
-: **Lecture 7**{: .label .label-lecture } Exponential approximations; geometric
-    : Ch [4.1 - 4.3](http://stat88.org/textbook/content/Chapter_04/00_Infinitely_Many_Values.html)
-: **Quiz 1**{: .label .label-quiz }
-    : Ch [1](http://stat88.org/textbook/content/Chapter_01/00_The_Basics.html) and [2](http://stat88.org/textbook/content/Chapter_02/00_Intersections_and_Conditioning.html)
-: **Section 4**{: .label .label-disc } 
-    : Ch [3 Ex 6, 10](http://stat88.org/textbook/content/Chapter_03/06_Exercises.html); Ch [4, Ex 4, 6, 5](http://stat88.org/textbook/content/Chapter_04/05_Exercises.html)
+Sep 1
+: **Mega-Section 2**{: .label .label-disc}
