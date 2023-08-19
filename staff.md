@@ -9,10 +9,10 @@ description: A listing of all the course staff members.
 
 Append `@berkeley.edu` to all email addresses. **For questions, concerns, personal circumstances, or sensitive matters,** please use the staff email address **[data140@berkeley.edu](mailto:data140@berkeley.edu)**, which is monitored only by the instructors. 
 
-## Instructors
+## Professors
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-{% for staffer in instructors %}
+{% assign professors = site.staffers | where: 'role', 'Professor' %}
+{% for staffer in Professors %}
 {{ staffer }}
 {% endfor %}
 
