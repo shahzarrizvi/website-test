@@ -14,7 +14,7 @@ description: Resources and references for the class.
 {:toc}
 
 ### Mathematics Prerequisites
-- Math prereqs by chapter, summaries, and some exercises are [here](http://prob140.org/prereqs). 
+- Math prereqs by chapter, summaries, and some exercises are [here](resources/prereqs). 
 
 ### Inference and Python Prerequisites
 - Data 8 [Textbook](https://www.inferentialthinking.com/chapters/intro)

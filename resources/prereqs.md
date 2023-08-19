@@ -94,7 +94,7 @@ $$
     20
 </details> 
 
-**Exercise S3:** Let $\{c\}$ and $\{d\}$ be sequences of real numbers so that 
+**Exercise S3:** Let $$\{c\}$$ and $$\{d\}$$ be sequences of real numbers so that 
 
 $$
 \sum_{i=1}^{100} c_i ~=~ 10 ~~~~\mbox{and} ~~~~~
@@ -283,7 +283,7 @@ $$\mathbf{vA}$$ is a ______ vector of length ______.
     row, $$m$$
 </details>  
 
-**Notation** for MO3-MO5: Let $$\mathbf{A}(i, j)$$ be the $$(i, j)$$ element of $$\mathbf{A}$$, $$\mathbf{A}(i, \*)$$ the $$i$$th row of $$\mathbf{A}$$, and $$\mathbf{A}(\*, j)$$ the $$j$$th column of $$\mathbf{A}$$. Let $$\mathbf{v}(j)$$ be the $$j$$th element of $$\mathbf{v}$$.
+**Notation** for MO3-MO5: Let $$\mathbf{A}(i, j)$$ be the $$(i, j)$$ element of $$\mathbf{A}$$, $$\mathbf{A}(i, *)$$ the $$i$$th row of $$\mathbf{A}$$, and $$\mathbf{A}(*, j)$$ the $$j$$th column of $$\mathbf{A}$$. Let $$\mathbf{v}(j)$$ be the $$j$$th element of $$\mathbf{v}$$.
 
 **Exercise MO3:** Write the $$j$$th element of $$\mathbf{vA}$$ using sigma notation.
 
@@ -292,7 +292,7 @@ $$\mathbf{vA}$$ is a ______ vector of length ______.
     $$\sum_{i=1}^n \mathbf{v}(i)\mathbf{A}(i, j)$$
 </details>
 
-**Exercise MO4:** True or false: The elements of $$\mathbf{vA}$$ are $$\mathbf{v}\cdot\mathbf{A}(\*, 1), \mathbf{v}\cdot\mathbf{A}(\*, 2), \ldots, \mathbf{v}\cdot\mathbf{A}(\*, m)$$.
+**Exercise MO4:** True or false: The elements of $$\mathbf{vA}$$ are $$\mathbf{v}\cdot\mathbf{A}(*, 1), \mathbf{v}\cdot\mathbf{A}(*, 2), \ldots, \mathbf{v}\cdot\mathbf{A}(*, m)$$.
 
 <details>
     <summary>Answer MO4</summary>
