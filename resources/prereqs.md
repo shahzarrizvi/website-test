@@ -39,7 +39,7 @@ Notice the distinction between *sequences* (orderings, or "arrangements in a lin
 **b)** in a circle?
 
 
-<details markdown = "block">
+<details>
     <summary>
         Answer BC1
     </summary>
