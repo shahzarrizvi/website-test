@@ -7,6 +7,13 @@ description: Information about how the course is run.
 
 # Course Information
 #### Ani Adhikari and Alex Strang ####
+{:.no_toc}
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 Welcome to Data 140! This page contains the nitty-gritty details of the class. Please read it carefully, and also read the companion page [about](http://prob140.org/about/) the class. 
 
