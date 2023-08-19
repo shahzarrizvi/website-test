@@ -7,4 +7,4 @@ email: cynthiagao
 photo: cynthia.jpg
 ---
 
-Hi! I'm a rising junior studying data science and economics. I love to bake bread, read books, listen to music (i'm a big swiftie), hunt for good matcha lattes, and photosynthesize in the sun! Hope you all have a fantastic time in Data 88S this summer!
+Hi everyone! I’m a junior studying data science and economics. I love everything baking, books, plants, Taylor Swift, and you can probably find me photosynthezing in sunny spots on campus :))
