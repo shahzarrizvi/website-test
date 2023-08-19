@@ -122,7 +122,7 @@ If the identity is true, find the common value of the two sides. If it is false,
     <b>a)</b> 540
     <b>b)</b> 45
     <b>c)</b> 520
-    <b>d)</b> False: left = 3000, right = 30
+    <b>d)</b> False: \(\sum_{i=1}^{100} \sum_{j=1}^{100} (c_i + d_j)= 3000 \neq 30 = \sum_{i=1}^{100} (c_i + d_i)\)
 </details> 
 
 **Exercise S4:** Fill in the blanks:
@@ -135,7 +135,7 @@ $$
 
 <details>
     <summary>Answer S4</summary>
-    $\displaystyle \sum_{j = 1}^n \sum_{i = 1}^j a_{ij}$
+    \(\displaystyle \sum_{j = 1}^n \sum_{i = 1}^j a_{ij}\)
 </details>
 
 ### <span style="color: darkblue">Induction</span> ###
