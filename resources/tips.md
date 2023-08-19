@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Study Tips from Staff and Students
+title: Study Tips
 nav_exclude: true
 ---
-
+# Study Tips from Staff and Students #
 #### A. Adhikari ####
 
 In Data 140 you will be learning probability based on your knowledge of math. Your work will consist mostly of math, with some computing to enhance your understanding of the math and also to point to interesting mathematical avenues to explore.

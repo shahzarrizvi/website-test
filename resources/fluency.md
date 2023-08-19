@@ -3,7 +3,7 @@ layout: page
 title: Math Fluency
 nav_exclude: true
 ---
-
+# Math Fluency #
 #### A. Adhikari ####
 
 Along with inference, Data 140 requires calculus and linear algebra. But like other upper division probability courses it has an unwritten prerequisite of what I call mathematical fluency. 
