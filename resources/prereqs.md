@@ -76,6 +76,7 @@ Summation notation will be used throughout the term. For Chapters 1-7 you just n
 $$
 \sum_{i \in S} (x_i + y_i) ~ = ~ \sum_{i \in S} x_i + \sum_{i \in S} y_i
 $$
+
 - Section 2.3 has excellent advice.
 - In [Chapter 4](http://prob140.org/textbook/content/Chapter_04/01_Joint_Distributions.html) of the textbook you'll start working with double sums. The main idea is in Section 1.7 on Pages 4-5 of the Prof. Aspnes notes linked above; note the analogy with nested `for` loops. Useful properties are in the latter half of Section 2.2.
 
@@ -94,22 +95,25 @@ $$
 </details> 
 
 **Exercise S3:** Let $\{c\}$ and $\{d\}$ be sequences of real numbers so that 
+
 $$
 \sum_{i=1}^{100} c_i ~=~ 10 ~~~~\mbox{and} ~~~~~
 \sum_{j=1}^{100} d_j ~=~ 20 
 $$
 
-**a)** Find the value of $\sum_{i=1}^{100} (4c_i + 5)$.
+**a)** Find the value of $$\sum_{i=1}^{100} (4c_i + 5)$$.
 
-**b)** Find the value of $\sum_{i=1}^{100} 4c_i ~+~ 5$.
+**b)** Find the value of $$\sum_{i=1}^{100} 4c_i ~+~ 5$$.
 
-**c)** Find the value of $\sum_{i=1}^{100} (4c_i - d_i + 5)$.
+**c)** Find the value of $$\sum_{i=1}^{100} (4c_i - d_i + 5)$$.
 
 **d)** True or false:
+
 $$
 \sum_{i=1}^{100} \sum_{j=1}^{100} (c_i + d_j) ~~=~~
 \sum_{i=1}^{100} (c_i + d_i)
 $$
+
 If the identity is true, find the common value of the two sides. If it is false, find the values of the two sides.
 
 <details>
@@ -126,19 +130,19 @@ $$
 \sum_{i=1}^n \sum_{j=i}^n a_{ij}  ~ = ~ \sum_{j = \underline{~~~}}^{\underline{~~~}} \sum_{i = \underline{~~~}}^{\underline{~~~}} a_{ij}
 $$
 
-[It might help to draw a grid of all $(i,j)$ pairs for some small value of $n$.]
+[It might help to draw a grid of all $$(i,j)$$ pairs for some small value of $$n$$.]
 
 <details>
     <summary>Answer S4</summary>
-    $\sum_{j = 1}^n \sum_{i = 1}^j a_{ij}$
+    $$\sum_{j = 1}^n \sum_{i = 1}^j a_{ij}$$
 </details>
 
 ### <span style="color: darkblue">Induction</span> ###
 
 Mathematical induction is a method that is sometimes helpful for proving math statements if:
 
-- You have a guessed a math statement for each positive integer $n$, where the $n$th statement depends on $n$, and
-- for small $n$ (even just $n=1$) you can easily show that the statement is true.
+- You have a guessed a math statement for each positive integer $$n$$, where the $$n$$th statement depends on $$n$$, and
+- for small $$n$$ (even just $$n=1$$) you can easily show that the statement is true.
 
 **Review:** A [clear set of notes](http://www.math.utah.edu/mathcircle/notes/induction.pdf) from [Tom Davis](https://mathcircle.berkeley.edu/tom-davis) of the Berkeley Math Circle 
 
@@ -147,39 +151,43 @@ Mathematical induction is a method that is sometimes helpful for proving math st
 The method is always the same.
 
 - Prove the base case.
-- Assume the induction hypothesis. That is, assume that the statement is true for a generic integer $n$.
-- Write the statement for $n+1$. This is what you have to prove.
-- [This is where the bulk of the work comes in.] Somehow write the statement for $n+1$ in terms of the statement for $n$ (assumed to be true) and the base case (which you have proved), in such a way that a little algebraic or other mathematical messing around show that the statement for $n+1$ is true.
+- Assume the induction hypothesis. That is, assume that the statement is true for a generic integer $$n$$.
+- Write the statement for $$n+1$$. This is what you have to prove.
+- [This is where the bulk of the work comes in.] Somehow write the statement for $$n+1$$ in terms of the statement for $$n$$ (assumed to be true) and the base case (which you have proved), in such a way that a little algebraic or other mathematical messing around show that the statement for $$n+1$$ is true.
 
-**Exercise I1:** Show by induction that for each positive integer $n$, $\sum_{i=1}^n i ~ = ~ \frac{n(n+1)}{2}$.
+**Exercise I1:** Show by induction that for each positive integer $$n$$, 
+
+$$
+\sum_{i=1}^n i ~ = ~ \frac{n(n+1)}{2}.
+$$
 
 <details>
     <summary>Answer I1</summary>
-    The key step is $\sum_{i=1}^{n+1} i ~ = ~ \sum_{i=1}^n i ~+~ (n+1)$.
+    The key step is $$\sum_{i=1}^{n+1} i ~ = ~ \sum_{i=1}^n i ~+~ (n+1)$$.
 </details> 
 
-**Exercise I2:** Apply I1 (no induction necessary) to find $\sum_{i=0}^{n-1} i$. This is the form in which the result first appears in the course, in [Chapter 1](http://prob140.org/textbook/content/Chapter_01/05_An_Exponential_Approximation.html) of the textbook.
+**Exercise I2:** Apply I1 (no induction necessary) to find $$\sum_{i=0}^{n-1} i$$. This is the form in which the result first appears in the course, in [Chapter 1](http://prob140.org/textbook/content/Chapter_01/05_An_Exponential_Approximation.html) of the textbook.
 
-**Exercise I3:** Use I1 and properties of sums (no induction necessary) to find a simple expression for the sum of the first $n$ ***odd*** integers: $\sum_{i=1}^n (2i-1)$.
+**Exercise I3:** Use I1 and properties of sums (no induction necessary) to find a simple expression for the sum of the first $$n$$ ***odd*** integers: $$\sum_{i=1}^n (2i-1)$$.
 
 **Exercise I4:** As a check, use induction to prove the formula you got in I3.
 
 ### <span style="color: darkblue">The Exponential and Log Functions</span> ###
 
-**NOTE: All $\log$s in this class, and in almost all of math, are natural logarithms taken to the base $e$.**
+**NOTE: All $$\log$$s in this class, and in almost all of math, are natural logarithms taken to the base $e$.**
 
-You know that $\log(1) = 0$. What we're going to need, quite often, is an approximation for the log of a number that is very close to 1. A crude approximation is 0 because the number is close to 1. But we'll use a finer approximation based on the first couple of terms in a related Taylor expansion.
+You know that $$\log(1) = 0$$. What we're going to need, quite often, is an approximation for the log of a number that is very close to 1. A crude approximation is 0 because the number is close to 1. But we'll use a finer approximation based on the first couple of terms in a related Taylor expansion.
 
-**Review:** [Graphs and Relevant Properties](http://prob140.org/resources/exponential_approximations/). For now, you need the *Limits and Approximations* section but not the *Bounds*. Preferably, you should understand the approximations in relation to the graphs of $e^x$ and $\log(x)$.
+**Review:** [Graphs and Relevant Properties](http://prob140.org/resources/exponential_approximations/). For now, you need the *Limits and Approximations* section but not the *Bounds*. Preferably, you should understand the approximations in relation to the graphs of $$e^x$$ and $$\log(x)$$.
 
 - In [Chapter 1](http://prob140.org/textbook/content/Chapter_01/05_An_Exponential_Approximation.html) you'll need the approximations.
-- Starting with [Chapter 6](http://prob140.org/textbook/content/Chapter_06/06_Law_of_Small_Numbers.html#poisson-approximation-to-the-binomial) you'll need the Taylor expansion of $e^x$.
+- Starting with [Chapter 6](http://prob140.org/textbook/content/Chapter_06/06_Law_of_Small_Numbers.html#poisson-approximation-to-the-binomial) you'll need the Taylor expansion of $$e^x$$.
 
 **Exercise EL1:** About how big is 
 
-**a)** $\log(1.01)$?
+**a)** $$\log(1.01)$$?
 
-**b)** $\log(0.99)$?
+**b)** $$\log(0.99)$$?
 
 <details>
     <summary>Answer EL1</summary>
@@ -188,38 +196,38 @@ You know that $\log(1) = 0$. What we're going to need, quite often, is an approx
 </details>  
 
 
-**Exercise EL2:** Suppose $0 < p_n < 1$ for all $n$, $\lim_{n \to \infty} p_n = 0$, and $\lim_{n \to \infty} np_n = \mu$ for some number $\mu > 0$. Find  $\lim_{n \to \infty} (1 - p_n)^n$. 
+**Exercise EL2:** Suppose $$0 < p_n < 1$$ for all $$n$$, $$\lim_{n \to \infty} p_n = 0$$, and $$\lim_{n \to \infty} np_n = \mu$$ for some number $$\mu > 0$$. Find  $$\lim_{n \to \infty} (1 - p_n)^n$$. 
 
-[Hint: Start by considering the $\log$ of $(1 - p_n)^n$. Approximate it for large $n$, and then invert.
+[Hint: Start by considering the $$\log$$ of $$(1 - p_n)^n$$. Approximate it for large $$n$$, and then invert.
 
 <details>
     <summary>Answer EL2</summary>
-    $e^{-\mu}$
+    $$e^{-\mu}$$
 </details>  
 
-**Exercise EL3:** In EL2, $1 - p_n \to 1$ as $n \to \infty$, and $1^n = 1$ for all $n$. So why isn't it true that $(1 - p_n)^n \to 1$ as $n \to \infty$?
+**Exercise EL3:** In EL2, $$1 - p_n \to 1$$ as $$n \to \infty$$, and $$1^n = 1$$ for all $$n$$. So why isn't it true that $$(1 - p_n)^n \to 1$$ as $$n \to \infty$$?
 
 <details>
     <summary>Answer EL3</summary>
-    For a *fixed* power $m$, it's true that $(1 - p_n)^m \to 1$ as $n \to \infty$. But in the expression $(1 - p_n)^n$ the power $n$ isn't fixed. It's going to infinity. So the sequence $(1-p_n)^n$ is pulled in opposite directions: $1-p_n$ is heading for its upper limit of 1, but it's always less than 1 and so raising it to an increasing power $n$ keeps pulling it downwards. 
+    For a *fixed* power $$m$$, it's true that $$(1 - p_n)^m \to 1$$ as $$n \to \infty$$. But in the expression $$(1 - p_n)^n$$ the power $$n$$ isn't fixed. It's going to infinity. So the sequence $$(1-p_n)^n$$ is pulled in opposite directions: $$1-p_n$$ is heading for its upper limit of 1, but it's always less than 1 and so raising it to an increasing power $n$ keeps pulling it downwards. 
 </details> 
 
 **Exercise EL4:** Computers can't do infinite sums (though they can get close numerically, and some symbolic math systems can handle many infinite sums). Find simple expressions for the following sums.
 
-**a)** $ \sum_{n=0}^{\infty} \frac{1}{n!} $
+**a)** $$\sum_{n=0}^{\infty} \frac{1}{n!}$$
 
-**b)** $ \sum_{i=0}^{\infty} \frac{2^{3i}}{i!} $
+**b)** $$\sum_{i=0}^{\infty} \frac{2^{3i}}{i!}$$
 
-**c)** $ \sum_{k=2}^{\infty} \frac{3^k}{k!} $
+**c)** $$\sum_{k=2}^{\infty} \frac{3^k}{k!}$$
 
-**d)** $\sum_{i=0}^\infty \frac{2^i}{(i+1)!}$
+**d)** $$\sum_{i=0}^\infty \frac{2^i}{(i+1)!}$$
 
 <details>
     <summary>Answer EL4</summary>
-    a) $e$
-    b) $e^8$
-    c) $e^3 - 4$
-    d) $\frac{1}{2}(e^2 - 1)$
+    a) $$e$$
+    b) $$e^8$$
+    c) $$e^3 - 4$$
+    d) $$\frac{1}{2}(e^2 - 1)$$
 </details>  
 
 ### <span style="color: darkblue">Geometric Series</span> ###
@@ -228,19 +236,19 @@ We'll use the infinite series more frequently than the finite one, starting in [
 
 **Review:** The main results on Page 6 (Section 2.1) of [Prof. Aspnes notes](http://www.cs.yale.edu/homes/aspnes/pinewiki/attachments/SummationNotation/summation-notation.pdf). Understand the derivation of the infinite sum. That way you'll never have to memorize the results.
 
-**Exercise GS1:** Let $0 < p < 1$. Let $ S = \sum_{i=0}^{\infty} p^i $.
+**Exercise GS1:** Let $$0 < p < 1$$. Let $$S = \sum_{i=0}^{\infty} p^i$$.
 
-**a)** Find $S$.
+**a)** Find $$S$$.
 
-**b)** Replace the $?$ with the appropriate factor: $ \sum_{i=3}^{\infty} p^i ~ = ~ ? \cdot S$. Hence find $ \sum_{i=3}^{\infty} p^i$.
+**b)** Replace the $$?$$ with the appropriate factor: $$\sum_{i=3}^{\infty} p^i ~ = ~ ? \cdot S$$. Hence find $$\sum_{i=3}^{\infty} p^i$$.
 
-**c)** Find $\sum_{i=0}^{\infty} p^{3i} $.
+**c)** Find $$\sum_{i=0}^{\infty} p^{3i}$$.
 
 <details>
     <summary>Answer GS1</summary>
-    a) $\frac{1}{1-p}$
-    b) The factor is $p^3$ so the sum is $\frac{p^3}{1-p}$.
-    c) $\frac{1}{1-p^3}$
+    a) $$\frac{1}{1-p}$$
+    b) The factor is $$p^3$$ so the sum is $$\frac{p^3}{1-p}$$.
+    c) $$\frac{1}{1-p^3}$$
 </details>  
 
 ## Chapters 10-11 ##
@@ -249,55 +257,55 @@ We'll use the infinite series more frequently than the finite one, starting in [
 
 That's all we'll need for these two chapters. Linear algebra will be used more significantly towards the end of the course.
 
-By the time you get to Chapter 10 you will have realized that probability is all about weighted averages. Matrix representation gives us a compact and powerful way to work with these. For example, suppose $\mathbf{x} = x_1, x_2, \ldots, x_n$ is a list of numbers and $\mathbf{w} = w_1, w_2, \ldots, w_n$ is a list of weights that add up to $1$. Then the dot product $\mathbf{w\cdot x}$ is the weighted average of $\mathbf{x}$ using $\mathbf{w}$ as the weights. 
+By the time you get to Chapter 10 you will have realized that probability is all about weighted averages. Matrix representation gives us a compact and powerful way to work with these. For example, suppose $$\mathbf{x} = x_1, x_2, \ldots, x_n$$ is a list of numbers and $$\mathbf{w} = w_1, w_2, \ldots, w_n$$ is a list of weights that add up to $$1$$. Then the dot product $$\mathbf{w\cdot x}$$ is the weighted average of $$\mathbf{x}$$ using $$\mathbf{w}$$ as the weights. 
 
-**Review:** It is important to visualize the sizes and shapes of the vectors and matrices involved. Prof. [Semyon Dyatlov](http://math.mit.edu/~dyatlov/) of MIT has a [nice summary](http://math.mit.edu/~dyatlov/54summer10/matalg.pdf) of the basic matrix operations, which I beleive was written when he taught Math 54 as a graduate student at Berkeley. Notice that he starts with just the sizes, before going into the algebra.
+**Review:** It is important to visualize the sizes and shapes of the vectors and matrices involved. Prof. [Semyon Dyatlov](http://math.mit.edu/~dyatlov/) of MIT has a [nice summary](http://math.mit.edu/~dyatlov/54summer10/matalg.pdf) of the basic matrix operations, which I believe was written when he taught Math 54 as a graduate student at Berkeley. Notice that he starts with just the sizes, before going into the algebra.
 
-**Exercise MO1:** Let $\mathbf{A}$ be $n \times m$ and let $\mathbf{v}$ be a vector.
+**Exercise MO1:** Let $$\mathbf{A}$$ be $$n \times m$$ and let $$\mathbf{v}$$ be a vector.
 
-Fill in the first blank with either *row* or *column*, and the second with either $n$ or $m$.
+Fill in the first blank with either *row* or *column*, and the second with either $$n$$ or $$m$$.
 
-For $\mathbf{vA}$ to make sense, $\mathbf{v}$ must be a ______ vector of length ______.
+For $$\mathbf{vA}$$ to make sense, $$\mathbf{v}$$ must be a ______ vector of length ______.
 
 <details>
     <summary>Answer MO1</summary>
-    row, $n$
+    row, $$n$$
 </details>  
 
-In the following exercises, assume the conditions of MO1 and that $\mathbf{vA}$ makes sense.
+In the following exercises, assume the conditions of MO1 and that $$\mathbf{vA}$$ makes sense.
 
-**Exercise MO2:** Fill in the first blank with either *row* or *column*, and the second with either $n$ or $m$.
+**Exercise MO2:** Fill in the first blank with either *row* or *column*, and the second with either $$n$$ or $$m$$.
 
-$\mathbf{vA}$ is a ______ vector of length ______.
+$$\mathbf{vA}$$ is a ______ vector of length ______.
 
 <details>
     <summary>Answer MO2</summary>
-    row, $m$
+    row, $$m$$
 </details>  
 
-**Notation** for MO3-MO5: Let $\mathbf{A}(i, j)$ be the $(i, j)$ element of $\mathbf{A}$, $\mathbf{A}(i, \*)$ the $i$th row of $\mathbf{A}$, and $\mathbf{A}(\*, j)$ the $j$th column of $\mathbf{A}$. Let $\mathbf{v}(j)$ be the $j$th element of $\mathbf{v}$.
+**Notation** for MO3-MO5: Let $$\mathbf{A}(i, j)$$ be the $$(i, j)$$ element of $$\mathbf{A}$$, $$\mathbf{A}(i, \*)$$ the $$i$$th row of $$\mathbf{A}$$, and $$\mathbf{A}(\*, j)$$ the $$j$$th column of $$\mathbf{A}$$. Let $$\mathbf{v}(j)$$ be the $$j$$th element of $$\mathbf{v}$$.
 
-**Exercise MO3:** Write the $j$th element of $\mathbf{vA}$ using sigma notation.
+**Exercise MO3:** Write the $$j$$th element of $$\mathbf{vA}$$ using sigma notation.
 
 <details>
     <summary>Answer MO3</summary>
-    $\sum_{i=1}^n \mathbf{v}(i)\mathbf{A}(i, j)$
+    $$\sum_{i=1}^n \mathbf{v}(i)\mathbf{A}(i, j)$$
 </details>
 
-**Exercise MO4:** True or false: The elements of $\mathbf{vA}$ are $\mathbf{v}\cdot\mathbf{A}(\*, 1), \mathbf{v}\cdot\mathbf{A}(\*, 2), \ldots, \mathbf{v}\cdot\mathbf{A}(\*, m)$.
+**Exercise MO4:** True or false: The elements of $$\mathbf{vA}$$ are $$\mathbf{v}\cdot\mathbf{A}(\*, 1), \mathbf{v}\cdot\mathbf{A}(\*, 2), \ldots, \mathbf{v}\cdot\mathbf{A}(\*, m)$$.
 
 <details>
     <summary>Answer MO4</summary>
     True
 </details>
 
-**Exercise MO5:** Now suppose $\mathbf{A}$ is $n \times n$ for $n \ge 5$. Fill in the first blank with the right coordinates and the second with a matrix:
+**Exercise MO5:** Now suppose $$\mathbf{A}$$ is $$n \times n$$ for $$n \ge 5$$. Fill in the first blank with the right coordinates and the second with a matrix:
 
-$\sum_{k = 1}^n \mathbf{A}(2, k)\mathbf{A}(k, 5)$ is the ______ element of the matrix ______.
+$$\sum_{k = 1}^n \mathbf{A}(2, k)\mathbf{A}(k, 5)$$ is the ______ element of the matrix ______.
 
 <details>
     <summary>Answer MO5</summary>
-    $(2, 5)$, $\mathbf{A}^2$
+    $$(2, 5)$$, $$\mathbf{A}^2$$
 </details>
 
 ## Chapter 15 onwards ##
