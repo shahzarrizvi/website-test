@@ -6,45 +6,38 @@ description: >-
     Course policies and information.
 ---
 
-# About Data 88S
-{:.no_toc}
+# About Data 140
+#### Ani Adhikari ####
 
-## Table of contents
-{: .no_toc .text-delta }
+Data 140 (previously Stat 140, a.k.a. Prob 140) is a probability course for undergraduates who have taken Data 8, have a math background, and wish to go deeper into the theory of data science.
 
-1. TOC
-{:toc}
+It is a course in probability theory, not data analysis. Python labs are used to better understand the theory but the work in the course is primarily mathematical. 
 
----
+Data 140 aims to give students a good theoretical background for modern data analysis. Contents have been selected after consultation with faculty who teach Stat and CS courses in advanced statistical topics including machine learning. The main topics are univariate and multivariate distributions, conditioning, and some stochastic processes. Primary examples include Bayesian estimation, Markov Chain Monte Carlo, multiple regression and the geometry of the multivariate normal.
 
-## What is Data 88S? ##
-The official number of Data 88S is Data/Stat C88S. That numbering indicates that it the course is cross-listed in Data and Statistics.
+The course satisfies requirements for several undergraduate majors and minors. 
 
-Data 88S is an introduction to the theoretical underpinnings of the methods used in [Data 8](https://www.inferentialthinking.com/chapters/intro.html). It is intended for students who have taken some calculus and 
+- **Data Science:** Data 140 satisfies the probability requirement for the [Data Science major](https://data.berkeley.edu/degrees/data-science-ba/upper-division). It is one of the two probability classes that are preferred as preparation for Data 102 (*Data, Inference, and Decisions*) which satisfies the Modeling, Learning, and Decision Making requirement for the major. Data 140 can also be used to satisfy the probability requirement for the [Data Science minor](https://data.berkeley.edu/academics/undergraduate-programs/data-science-minor) although the requirement can also be satisfied by taking lower division probability. 
 
-- are intending to major in areas that require a strong foundation in probability and mathematical statistics, or 
-- are intending to minor in data science and want to see how theory and practice can enhance each other.
+- **Statistics:** Data 140 is cross-listed as Data/Stat C140. For the Statistics major and minor, and for Statistics courses numbered 135 and above, Data 140 satisfies the same requirements as Stat 134 does. If a Statistics course currently requires Stat 134, then Data 140 will fulfill that requirement too. A letter grade of B- or better in Data 140 will satisfy the corresponding Stat 134 grade requirement for entry into the Statistics major.
 
-Data 88S will prepare students well for the probability and theoretical statistics that is covered in Data 100 and Data 131A.
+- **Other Majors:** Data 140 satisfies the statistics requirement for entry into the Economics and Business majors, and elective requirements for other majors including Applied Math and L&S CS. Students can petition others. Please direct your inquiries to the other major and include the link to the [course website](http://prob140.org/) if needed.
 
-## What requirements does Data 88S satisfy? ##
+### Prerequisites and Enrollment ###
+Data 140 is restricted to undergraduates who satisfy all the following requirements:
 
-- Along with Data 8, Data 88S satisfies the Statistics requirement for the Economics and Business Administration majors.
-- Data 88S satisfies the probability requirement of the minor in Data Science.
+- Have not taken Stat 134 or EECS 126; students cannot get credit for Data 140 after taking Stat 134 or EECS 126
+- Have taken a year of calculus at the level of Math 1A-1B and preferably higher; Data 140 involves some double integration and partial derivatives
+- Have taken or are concurrently taking linear algebra in Math 54 or EE 16B or Math 110, or have taken an equivalent linear algebra course at another college (please note the change that EE 16A is no longer accepted)
+- Have taken Data 8 or **both** Stat 20 and CS 61A or **both** Stat 20 and Data 88C (formerly CS 88)
 
-## Who can take Data 88S? ##
-Data 88S is restricted to students who:
+The course has been designed for students who have the specific background above in math, programming, and statistical inference. All prerequisites and corequisites are enforced by CalCentral.
 
-- Have not taken Stat 134, 140, 135, or 102; no credit will be given for Data 88S after these courses.
-- Have taken one semester of calculus at the level of Math 16A, Math 10A, or Math 1A.
-- Have taken or are currently taking Data 8 (DATA/CS/STAT/INFO C8)
+### Other Upper Division Probability Courses ###
+The campus offers four upper division probability courses including Data 140. Here is Prof. Adhikari's take on the other three.
 
-All of the requirements are enforced because the course has been designed specifically for students who have the above background in math, programming, and statistical inference. 
+- If you are interested in data science and have taken CS 61A, CS 70, multivariable calculus, and linear algebra, but not Data 8/100, I recommend [EECS 126](http://guide.berkeley.edu/courses/eecs/). It builds on the probability content of CS 70 to cover properties of discrete and continuous distributions, both univariate and multivariate; the theory underlying fundamental methods of statistical inference; and stochastic (that is, random) processes. Python labs cover a variety of applications to data science. It will prepare you well for classes in machine learning and other ways of making decisions based on data.
 
-## What is the best way to succeed in Data 88S? ##
+- [STAT 134](http://guide.berkeley.edu/courses/stat/) has the fewest prerequisites (just one year of calculus) and is aimed at a more general audience than the other three classes. The content overlaps extensively with Data 140 and INDENG 172, and the general approach to distributions and conditioning is quite similar to that in Data 140. Unlike Data 140 and EECS 126, there is no almost no inference and no computing. Stat 134 prepares students well for Stat 135 and several 150-level statistics courses, and provides a good foundation for classes in machine learning and decision making.
 
-- Participate in lecture and discussion sections. The course staff do their best to create effective, efficient, and enjoyable sessions for students to learn.
-- Read the textbook or your lecture notes, and go over the problems done in section, _before_ attempting the homework. You should not expect to simply remember everything from lecture and section, especially after the first couple of weeks. If you have time, do the remaining problems in the textbook.
-- Make a serious attempt at exercises by yourself before you seek help. The only way to become an independent problem solver (and, incidentally, to succeed in exams) is to try to solve problems independently. Your goal should be to increase the fraction of work you do by yourself, as the semester progresses.
-- Study concepts, not formulas. Don’t scroll fast through the words in the textbook and only stop when you spot a formula. Learn how ideas fit together; don’t memorize solutions to exercises. Problems in exams (and in your next class or research or job) won’t fit neatly into boxes that you have seen before.
-- Use Ed, go to office hours, make friends with whom you can study. But if you have friends who always seem to know how to do the problems while you don’t, thank them nicely and then politely ask them to go away. Yes, really. Staff will be happy to help you figure out the best way for you to begin to take charge of the material.
+- [INDENG 172](http://guide.berkeley.edu/courses/ind_eng/) requires calculus as well as programming experience and is aimed primarily at INDENG and ORMS majors. Of the three other classes, it resembles Stat 134 most closely, and the programming component varies by semester. 

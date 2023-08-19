@@ -1,26 +1,36 @@
 ---
 layout: page
-title: Acknowledgements
+title: Acknowledgements, and the Logo
 nav_order: 6
 description: The acknowledgements.
 ---
 
 # Acknowledgements
-#### Ani Adhikari, August 2022 ####
+#### Ani Adhikari, Spring 2022 ####
 
-Data 88S (originally Stat 88) was developed in Fall 2015 along with [Data 8](https://inferentialthinking.com/chapters/intro.html), as a seminar course for about 25 students. The goal was for the participants to collectively discover some of the mathematics underlying Data 8 and then write it up correctly in a manner that would be accessible to their peers. Though the course has now changed substantially and serves hundreds of students each semester, its foundations were established by the class of Fall 2015:
+The development of Prob 140 has been a team effort by faculty and students.
 
-Shreya Agarwal, Thomas Anthony, Bryannie Bach, Adith Balamurugan, Betty Chang, Aditya Gandhi, Dibya Ghosh, Edward Huang, Jiayi Huang, Weston Hughes, Arvind Iyengar, Andrew Linxie, Rahil Mathur, Nishaad Navkal, Kyle Nguyen, Christopher Sauceda, Rohan Singh, Parth Singhal, Max Weinstein, Yu Xia, Anthony Xian, and Ling Xie.
+Dibya Ghosh and Jason Zhang were central to course development, including course infrastructure, the prob140 Python library, the building and features of the interactive online textbook, computational and pedagogical aspects of several labs, quizzes, and overall pedagogy. They were also the Lead UGSIs (Undergraduate Student Instructors) in the initial offerings of the course. 
 
-Dibya Ghosh continued to work with me on the textbook and was the editor of subsequent drafts.
+Max Weinstein completed the UGSI team in the pilot offering and worked on several labs. Kazu Kogachi and Mujahid Zaman were part of the course staff as tutors and UGSIs since it was first offered.
 
-Chris Holdgraf developed the system for publishing the book online.
+Discussion section structure and content owes much to Dibya Ghosh, Biyonka Liang, and Katherine Yen. Robert Sweeney Blanco and Shahzar Rizvi collated and improved the Chapter Exercises in the textbook.
 
-In Fall 2019, the course was substantially redeveloped and the textbook enlarged in scope. The exposition owes much to two Berkeley texts: *Probability* by Jim Pitman, and the masterpiece *Statistics* by Freedman, Pisani, and Purves.
+All aspects of the class have been improved by the creativity and dedication of long-time Lead UGSI Alan Chuang.
 
-Francie McQuarrie was the principal driving force behind the organization of course materials and the program for developing future course staff. Ashley Chien reorganized the bank of textbook exercises and answers, and helped develop pedagogical guidance for staff.
+The textbook was rebuilt in Summer 2018 by Dominic Croce based on infrastructure created by Chris Holdgraf. It was rebuilt again in Summer 2020 by Ryan Roggenkemper based on new Jupyter Books infrastructure created by Chris Holdgraf and others. 
+
+The move to remote learning in 2020 was spearheaded by Alan Chuang, Katherine Yen, Anna Nguyen and Ryan Roggenkemper, and later also by Ophelia Wang, Rahul Jain, and Shahzar Rizvi. Rahul Jain included the videos in the textbook, while Huiyi Zhang and Xinran Liang helped develop the Quick Check exercises.
+
+Prob 140 has always had outstandingly dedicated and creative staff teams. Apart from those mentioned above, the initial offerings were fortunate to have the contributions of Priyanka Bhoj, Arvind Iyengar, Serena Jiang, Tara Mirmira, Xinyi Ren, and Henry Zhu. 
 
 ### The Logo ###
-The Stat 88 logo was created by Fall 2019 student Brandon Zhang as the winning entry in an end-of-term logo contest.
+The current logo was designed by Spring 2022 student Consuelo Ugarte, who accompanied the design with a fundamental truth gained from the class: "You can get really darn far with coinflips."
 
-In Fall 2022, the class was relabeled Data 88S. To mark this change, course staff member Nathan Harounian designed the new logo that now enlivens the course website.
+The original course logo by Biyonka Liang was the winning entry in a competition among students and staff in the pilot offering. Though formally Stat 140, the course was called Prob 140 as in Biyonka's logo.
+![original logo](assets/icon256.png)
+
+In Spring 2021 the course officially became Data 140 and took its rightful place in the sequence Data [8](http://data8.org/), [100](http://www.ds100.org/), [140](http://prob140.org/), and [102](https://data102.org/). The logo was modified accordingly by the inimitable Ryan Roggenkemper, designer of some memorable staff swag. 
+![Sp21 logo](assets/icon_sp21_256.png)
+
+This one is destined to remain a classic. But Data 140 now has its own identity and hence also a new logo.
