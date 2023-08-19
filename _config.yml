@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Data 88S
-tagline: Probability and Mathematical Statistics for Data Science
-description: The course website for UC Berkeley's Data C88S course.
+title: Data 140
+tagline: Probability for Data Science
+description: The course website for UC Berkeley's Data 140 course.
 author: Shahzar
 #baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'http://stat88.org' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'http://prob140.org' # the base hostname & protocol for your site, e.g. http://example.com
 logo: 'assets/brand/logo.png'
 favicon_ico: 'assets/brand/favicon.ico'
 #exclude:
@@ -40,11 +40,11 @@ heading_anchors: false
 
 aux_links:
   Textbook:
-    - 'http://stat88.org/textbook/'
+    - 'http://prob140.org/textbook/'
   Ed:
-    - 'https://edstem.org/us/courses/40833/'
-  Gradescope:
-    - 'https://www.gradescope.com/courses/552084'
+    - 'https://edstem.org/us/courses/43303/'
+#  Gradescope:
+#    - 'https://www.gradescope.com/courses/552084'
 
 nav_external_links:
   - title: Textbook
