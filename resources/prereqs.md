@@ -164,7 +164,7 @@ $$
 
 <details>
     <summary>Answer I1</summary>
-    The key step is $\displaystyle \sum_{i=1}^{n+1} i ~ = ~ \sum_{i=1}^n i ~+~ (n+1)$.
+    The key step is \(\displaystyle \sum_{i=1}^{n+1} i ~ = ~ \sum_{i=1}^n i ~+~ (n+1)\).
 </details> 
 
 **Exercise I2:** Apply I1 (no induction necessary) to find 
@@ -174,6 +174,7 @@ $$
 This is the form in which the result first appears in the course, in [Chapter 1](http://prob140.org/textbook/content/Chapter_01/05_An_Exponential_Approximation.html) of the textbook.
 
 **Exercise I3:** Use I1 and properties of sums (no induction necessary) to find a simple expression for the sum of the first $$n$$ ***odd*** integers:
+
 $$
 \sum_{i=1}^n (2i-1).
 $$
@@ -199,8 +200,8 @@ You know that $$\log(1) = 0$$. What we're going to need, quite often, is an appr
 
 <details>
     <summary>Answer EL1</summary>
-    <b>a)</b> $0.01$
-    <b>b)</b> $-0.01$
+    <b>a)</b> \(0.01\)
+    <b>b)</b> \(-0.01\)
 </details>  
 
 
@@ -210,7 +211,7 @@ You know that $$\log(1) = 0$$. What we're going to need, quite often, is an appr
 
 <details>
     <summary>Answer EL2</summary>
-    $e^{-\mu}$
+    \(e^{-\mu}\)
 </details>  
 
 **Exercise EL3:** In EL2, \(1 - p_n \to 1\) as \(n \to \infty\), and \(1^n = 1\) for all \(n\). So why isn't it true that \((1 - p_n)^n \to 1\) as \(n \to \infty\)?
@@ -254,9 +255,9 @@ We'll use the infinite series more frequently than the finite one, starting in [
 
 <details>
     <summary>Answer GS1</summary>
-    a) $$\frac{1}{1-p}$$
-    b) The factor is $$p^3$$ so the sum is $$\frac{p^3}{1-p}$$.
-    c) $$\frac{1}{1-p^3}$$
+    a) \(\frac{1}{1-p}\)
+    b) The factor is \(p^3\) so the sum is \(\frac{p^3}{1-p}\)
+    c) \(\frac{1}{1-p^3}\)
 </details>  
 
 ## Chapters 10-11 ##
@@ -277,7 +278,7 @@ For $$\mathbf{vA}$$ to make sense, $$\mathbf{v}$$ must be a ______ vector of len
 
 <details>
     <summary>Answer MO1</summary>
-    row, $$n$$
+    row, \(n\)
 </details>  
 
 In the following exercises, assume the conditions of MO1 and that $$\mathbf{vA}$$ makes sense.
@@ -288,7 +289,7 @@ $$\mathbf{vA}$$ is a ______ vector of length ______.
 
 <details>
     <summary>Answer MO2</summary>
-    row, $$m$$
+    row, \(m\)
 </details>  
 
 **Notation** for MO3-MO5: Let $$\mathbf{A}(i, j)$$ be the $$(i, j)$$ element of $$\mathbf{A}$$, $$\mathbf{A}(i, *)$$ the $$i$$th row of $$\mathbf{A}$$, and $$\mathbf{A}(*, j)$$ the $$j$$th column of $$\mathbf{A}$$. Let $$\mathbf{v}(j)$$ be the $$j$$th element of $$\mathbf{v}$$.
@@ -297,7 +298,7 @@ $$\mathbf{vA}$$ is a ______ vector of length ______.
 
 <details>
     <summary>Answer MO3</summary>
-    $$\sum_{i=1}^n \mathbf{v}(i)\mathbf{A}(i, j)$$
+    \(\displaystyle \sum_{i=1}^n \mathbf{v}(i)\mathbf{A}(i, j)\)
 </details>
 
 **Exercise MO4:** True or false: The elements of $$\mathbf{vA}$$ are $$\mathbf{v}\cdot\mathbf{A}(*, 1), \mathbf{v}\cdot\mathbf{A}(*, 2), \ldots, \mathbf{v}\cdot\mathbf{A}(*, m)$$.
@@ -313,7 +314,7 @@ $$\sum_{k = 1}^n \mathbf{A}(2, k)\mathbf{A}(k, 5)$$ is the ______ element of the
 
 <details>
     <summary>Answer MO5</summary>
-    $$(2, 5)$$, $$\mathbf{A}^2$$
+    \((2, 5)\), \(\mathbf{A}^2\)
 </details>
 
 ## Chapter 15 onwards ##
