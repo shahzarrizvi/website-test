@@ -43,9 +43,8 @@ Notice the distinction between *sequences* (orderings, or "arrangements in a lin
     <summary>
         Answer BC1
     </summary>
-    {: .text-delta }
-    a) 720
-    b) 120
+    <b>a)<\b> 720
+    <b>b)<\b> 120
 </details>  
 
 
@@ -59,9 +58,9 @@ Notice the distinction between *sequences* (orderings, or "arrangements in a lin
 
 <details>
     <summary>Answer BC2</summary>
-    a) 90
-    b) 45
-    c) 80
+    <b>a)</b> 90
+    <b>b)</b> 45
+    <b>c)</b> 80
 </details> 
 
 ###  <span style="color: darkblue">Sums</span> ### 
@@ -120,10 +119,10 @@ If the identity is true, find the common value of the two sides. If it is false,
 
 <details>
     <summary>Answer S3</summary>
-    a) 540
-    b) 45
-    c) 520
-    d) False: left = 3000, right = 30
+    <b>a)</b> 540
+    <b>b)</b> 45
+    <b>c)</b> 520
+    <b>d)</b> False: left = 3000, right = 30
 </details> 
 
 **Exercise S4:** Fill in the blanks:
@@ -136,7 +135,7 @@ $$
 
 <details>
     <summary>Answer S4</summary>
-    $$\sum_{j = 1}^n \sum_{i = 1}^j a_{ij}$$
+    $\displaystyle \sum_{j = 1}^n \sum_{i = 1}^j a_{ij}$
 </details>
 
 ### <span style="color: darkblue">Induction</span> ###
@@ -165,12 +164,19 @@ $$
 
 <details>
     <summary>Answer I1</summary>
-    The key step is $$\sum_{i=1}^{n+1} i ~ = ~ \sum_{i=1}^n i ~+~ (n+1)$$.
+    The key step is $\displaystyle \sum_{i=1}^{n+1} i ~ = ~ \sum_{i=1}^n i ~+~ (n+1)$.
 </details> 
 
-**Exercise I2:** Apply I1 (no induction necessary) to find $$\sum_{i=0}^{n-1} i$$. This is the form in which the result first appears in the course, in [Chapter 1](http://prob140.org/textbook/content/Chapter_01/05_An_Exponential_Approximation.html) of the textbook.
+**Exercise I2:** Apply I1 (no induction necessary) to find 
+$$
+\sum_{i=0}^{n-1} i.
+$$ 
+This is the form in which the result first appears in the course, in [Chapter 1](http://prob140.org/textbook/content/Chapter_01/05_An_Exponential_Approximation.html) of the textbook.
 
-**Exercise I3:** Use I1 and properties of sums (no induction necessary) to find a simple expression for the sum of the first $$n$$ ***odd*** integers: $$\sum_{i=1}^n (2i-1)$$.
+**Exercise I3:** Use I1 and properties of sums (no induction necessary) to find a simple expression for the sum of the first $$n$$ ***odd*** integers:
+$$
+\sum_{i=1}^n (2i-1).
+$$
 
 **Exercise I4:** As a check, use induction to prove the formula you got in I3.
 
@@ -193,8 +199,8 @@ You know that $$\log(1) = 0$$. What we're going to need, quite often, is an appr
 
 <details>
     <summary>Answer EL1</summary>
-    a) 0.01
-    b) -0.01
+    <b>a)</b> $0.01$
+    <b>b)</b> $-0.01$
 </details>  
 
 
@@ -204,14 +210,14 @@ You know that $$\log(1) = 0$$. What we're going to need, quite often, is an appr
 
 <details>
     <summary>Answer EL2</summary>
-    $$e^{-\mu}$$
+    $e^{-\mu}$
 </details>  
 
-**Exercise EL3:** In EL2, $$1 - p_n \to 1$$ as $$n \to \infty$$, and $$1^n = 1$$ for all $$n$$. So why isn't it true that $$(1 - p_n)^n \to 1$$ as $$n \to \infty$$?
+**Exercise EL3:** In EL2, \(1 - p_n \to 1\) as \(n \to \infty\), and \(1^n = 1\) for all \(n\). So why isn't it true that \((1 - p_n)^n \to 1\) as \(n \to \infty\)?
 
 <details>
     <summary>Answer EL3</summary>
-    For a *fixed* power $$m$$, it's true that $$(1 - p_n)^m \to 1$$ as $$n \to \infty$$. But in the expression $$(1 - p_n)^n$$ the power $$n$$ isn't fixed. It's going to infinity. So the sequence $$(1-p_n)^n$$ is pulled in opposite directions: $$1-p_n$$ is heading for its upper limit of 1, but it's always less than 1 and so raising it to an increasing power $n$ keeps pulling it downwards. 
+    For a <b>fixed</b> power \(m\), it's true that \((1 - p_n)^m \to 1\) as \(n \to \infty\). But in the expression \((1 - p_n)^n\) the power \(n\) isn't fixed. It's going to infinity. So the sequence \((1-p_n)^n\) is pulled in opposite directions: \(1-p_n\) is heading for its upper limit of 1, but it's always less than 1 and so raising it to an increasing power \(n\) keeps pulling it downwards. 
 </details> 
 
 **Exercise EL4:** Computers can't do infinite sums (though they can get close numerically, and some symbolic math systems can handle many infinite sums). Find simple expressions for the following sums.
@@ -226,10 +232,10 @@ You know that $$\log(1) = 0$$. What we're going to need, quite often, is an appr
 
 <details>
     <summary>Answer EL4</summary>
-    a) $$e$$
-    b) $$e^8$$
-    c) $$e^3 - 4$$
-    d) $$\frac{1}{2}(e^2 - 1)$$
+    <b>a)</b> \(e\)
+    <b>b)</b> \(e^8\)
+    <b>c)</b> \(e^3 - 4\)
+    <b>d)</b> \(\frac{1}{2}(e^2 - 1)\)
 </details>  
 
 ### <span style="color: darkblue">Geometric Series</span> ###
