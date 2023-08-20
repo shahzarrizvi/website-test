@@ -14,11 +14,9 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_professors != 0 %}
 ## Professors
 
-<div class="role flex">
 {% for staffer in professors %}
 {{ staffer }}
 {% endfor %}
-</div>
 {% endif %}
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' | reverse %}
@@ -26,11 +24,9 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_instructors != 0 %}
 ## Instructors
 
-<div class="role flex">
 {% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
-</div>
 {% endif %}
 
 {% assign staff = site.staffers | where: 'team', 'Staff' | reverse %}
@@ -38,10 +34,8 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_staff != 0 %}
 ## Course Staff
 
-<div class="role flex">
 {% for staffer in staff %}
 {{ staffer }}
 {% endfor %}
-</div>
 {% endif %}
 
