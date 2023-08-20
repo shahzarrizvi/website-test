@@ -14,7 +14,7 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_professors != 0 %}
 ## Professors
 
-<div class="role flex">
+<div class="flex">
 {% for staffer in professors %}
 {{ staffer }}
 {% endfor %}
@@ -26,7 +26,7 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_instructors != 0 %}
 ## Instructors
 
-<div class="role flex">
+<div class="flex">
 {% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
@@ -38,7 +38,7 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_staff != 0 %}
 ## Course Staff
 
-<div class="role flex">
+<div class="flex">
 {% for staffer in staff %}
 {{ staffer }}
 {% endfor %}
