@@ -14,27 +14,33 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% if num_professors != 0 %}
 ## Professors
 
+<div class="role flex">
 {% for staffer in professors %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
+</div>
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% assign num_instructors = instructors | size %}
 {% if num_instructors != 0 %}
 ## Instructors
 
+<div class="role flex">
 {% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
+</div>
 
 {% assign staff = site.staffers | where: 'team', 'Staff' %}
 {% assign num_staff = staff | size %}
 {% if num_staff != 0 %}
 ## Course Staff
 
+<div class="role flex">
 {% for staffer in staff %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
+</div>
