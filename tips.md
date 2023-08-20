@@ -5,7 +5,14 @@ nav_order: 7
 description: Tips on doing well in Data 140.
 ---
 # Study Tips from Staff and Students #
-#### A. Adhikari ####
+#### Ani Adhikari ####
+{:.no_toc}
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 In Data 140 you will be learning probability based on your knowledge of math. Your work will consist mostly of math, with some computing to enhance your understanding of the math and also to point to interesting mathematical avenues to explore.
 
