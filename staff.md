@@ -9,13 +9,13 @@ description: A listing of all the course staff members.
 
 Append `@berkeley.edu` to all email addresses. **For questions, concerns, personal circumstances, or sensitive matters,** please use the staff email address **[data140@berkeley.edu](mailto:data140@berkeley.edu)**, which is monitored only by the professors and the leads.
 
-{% assign professors = site.staffers | where: 'role', 'Professor' %}
+{% assign professors = site.staffers | where: 'role', 'Professor'%}
 {% assign num_professors = professors | size %}
 {% if num_professors != 0 %}
 ## Professors
 
 <div class="role flex">
-{% for staffer in professors %}
+{% for staffer in professors | reverse %}
 {{ staffer }}
 {% endfor %}
 </div>
@@ -27,7 +27,7 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 ## Instructors
 
 <div class="role flex">
-{% for staffer in instructors | reverse %}
+{% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
 </div>
@@ -39,7 +39,7 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 ## Course Staff
 
 <div class="role flex">
-{% for staffer in staff %}
+{% for staffer in staff | reverse %}
 {{ staffer }}
 {% endfor %}
 </div>
