@@ -18,8 +18,8 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% for staffer in professors %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
 </div>
+{% endif %}
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% assign num_instructors = instructors | size %}
@@ -30,8 +30,8 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
 </div>
+{% endif %}
 
 {% assign staff = site.staffers | where: 'team', 'Staff' %}
 {% assign num_staff = staff | size %}
@@ -42,5 +42,6 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 {% for staffer in staff %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
 </div>
+{% endif %}
+
