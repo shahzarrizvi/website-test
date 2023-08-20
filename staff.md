@@ -27,7 +27,7 @@ Append `@berkeley.edu` to all email addresses. **For questions, concerns, person
 ## Instructors
 
 <div class="role flex">
-{% for staffer in instructors %}
+{% for staffer in instructors | reverse %}
 {{ staffer }}
 {% endfor %}
 </div>
