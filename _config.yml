@@ -46,10 +46,10 @@ aux_links:
 #  Gradescope:
 #    - 'https://www.gradescope.com/courses/552084'
 
-nav_external_links:
-  - title: Textbook
-    url: textbook
-    hide_icon: false # set to true to hide the external link icon - defaults to false
+#nav_external_links:
+#  - title: Textbook
+#    url: textbook
+#    hide_icon: true # set to true to hide the external link icon - defaults to false
 
 # Collections for website data
 collections:

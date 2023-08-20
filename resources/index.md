@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-nav_order: 7
+nav_order: 6
 description: Resources and references for the class.
 ---
 # Resources #

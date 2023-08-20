@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-nav_order: 4
+nav_order: 8
 description: The weekly event schedule.
 ---
 
