@@ -1,5 +1,5 @@
 ---
-name: Cynthia
+name: Cynthia Gao
 pronouns: she/her
 team: Staff
 role: Reader

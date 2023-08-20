@@ -1,5 +1,5 @@
 ---
-name: Bhavna
+name: Bhavna Bhat
 pronouns: she/her
 team: Staff
 role: Reader
