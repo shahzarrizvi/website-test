@@ -1,28 +1,21 @@
 ---
-title: 'Week 4: Conditioning and Variance'
+title: 'Week 4: Expectation'
 ---
 
-Jul 10
-: **Lecture 11**{: .label .label-lecture } Expectation by conditioning
-    : Ch [5.5 - 5.6](http://stat88.org/textbook/content/Chapter_05/05_Conditional_Expectation.html)
-: [**Homework 4**{: .label .label-hw }](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_04.ipynb)
-    : [Due Jul 17 at 11:59 PM](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_04.ipynb)
+Sep 12
+: **Lecture**{: .label .label-lecture } Expectation
+    : Ch [8.1 - 8.3](http://prob140.org/textbook/content/Chapter_08/00_Expectation.html)
+: **Homework**{: .label .label-hw } Homework 4
+    : Due Sep 18 at 5PM
+: **Lab**{: .label .label-hw } Lab 3A: Chinese Restaurant Process
+    : Due Sep 18 at 5PM
 
-Jul 11
-: **Lecture 12**{: .label .label-lecture } Standard deviation; tail bounds
-    : Ch [6.1 - 6.4](http://stat88.org/textbook/content/Chapter_06/00_Measuring_Variability.html)
-: **Section 6**{: .label .label-disc }
-    : Ch [5, Ex 13, 14, 15](http://stat88.org/textbook/content/Chapter_05/07_Exercises.html); Ch [6, Ex 2, 4, 7, 5](http://stat88.org/textbook/content/Chapter_06/05_Exercises.html)
+Sep 13
+: **Section**{: .label .label-disc}
 
+Sep 14
+: **Lecture**{: .label .label-lecture} Expectation and additivity
+    : Ch [8.4 - 8.5](http://prob140.org/textbook/content/Chapter_08/04_Additivity.html)
 
-Jul 12
-: **Lecture 13**{: .label .label-lecture } Variance and additivity: binomial and hypergeometric
-    : Ch [7.1 - 7.2](http://stat88.org/textbook/content/Chapter_07/00_The_Variance_of_a_Sum.html)
-
-Jul 13
-: **Lecture 14**{: .label .label-lecture } Large samples: law of large numbers
-    : Ch [7.3](http://stat88.org/textbook/content/Chapter_07/03_The_Law_of_Averages.html)
-: **Quiz 3**{: .label .label-quiz }
-    : Ch [4.4](http://stat88.org/textbook/content/Chapter_04/04_The_Poisson_Distribution.html) and [5.1 - 5.4](http://stat88.org/textbook/content/Chapter_05/00_Expectation.html)
-: **Section 7**{: .label .label-disc }
-    : Ch [7, Ex 1, 3, 9, 4, 8](http://stat88.org/textbook/content/Chapter_07/04_Exercises.html); Law of Averages Question (not in textbook)
+Sep 15
+: **Mega-Section**{: .label .label-disc}

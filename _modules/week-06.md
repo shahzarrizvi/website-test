@@ -1,26 +1,25 @@
 ---
-title: 'Week 6: Densities and Estimation'
+title: 'Week 6: Markov Chain Monte Carlo'
 ---
 
-Jul 24
-: **Lecture 19**{: .label .label-lecture } Expectation and variance revisited
-    : Ch [10.2](http://stat88.org/textbook/content/Chapter_10/02_Expectation_and_Variance.html)
-: [**Homework 6**{: .label .label-hw }](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_06.ipynb)
-    : [Due Jul 31 at 11:59 PM](http://prob140.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/stat88/content-su23&branch=main&subPath=hw/Homework_06.ipynb)
+Sep 25
+: **Midterm 1**
+    : 7PM - 9PM
 
-Jul 25
-: **Lecture 20**{: .label .label-lecture } The exponential distribution
-    : Ch [10.3](http://stat88.org/textbook/content/Chapter_10/03_The_Exponential_Distribution.html)
-: **Section 10**{: .label .label-disc }
+Sep 26
+: **Lecture**{: .label .label-lecture } Balance
+    : Ch [10](http://prob140.org/textbook/content/Chapter_10/00_Markov_Chains.html), [11.1](http://prob140.org/textbook/content/Chapter_11/00_Markov_Chain_Monte_Carlo.html)
+: **Homework**{: .label .label-hw } Homework 6
+    : Due Oct 2 at 5PM
+: **Lab**{: .label .label-hw } Lab 4: Code Breaking by MCMC
+    : Due Oct 2 at 5PM
 
+Sep 27
+: **Section**{: .label .label-disc}
 
-Jul 26
-: **Lecture 21**{: .label .label-lecture } The normal distribution
-    : Ch [10.4](http://stat88.org/textbook/content/Chapter_10/04_The_Normal_Distribution.html)
+Sep 28
+: **Lecture**{: .label .label-lecture} Markov Chain Monte Carlo
+    : Ch [11.2 - 11.3](http://prob140.org/textbook/content/Chapter_11/02_Code_Breaking.html)
 
-Jul 27
-: **Lecture 22**{: .label .label-lecture } Estimation: bias and variance
-    : Ch [11.1 - 11.2](http://stat88.org/textbook/content/Chapter_11/00_Bias_Variance_and_Least_Squares.html)
-: **Quiz 5**{: .label .label-quiz }
-    : Ch [8](http://stat88.org/textbook/content/Chapter_08/00_Central_Limit_Theorem.html) and [9.1-9.2](http://stat88.org/textbook/content/Chapter_09/00_Inference.html)
-: **Section 11**{: .label .label-disc } 
+Sep 29
+: **Mega-Section**{: .label .label-disc}

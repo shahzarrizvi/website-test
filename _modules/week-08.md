@@ -1,17 +1,21 @@
 ---
-title: 'Week 8: Review and Final Exam'
+title: 'Week 8: Central Limit Theorem and Densities'
 ---
 
-Aug 7
-: **Lecture 27**{: .label .label-lecture } Buffer/Review
+Oct 10
+: **Lecture**{: .label .label-lecture } Central Limit Theorem
+    : Ch [14](http://prob140.org/textbook/content/Chapter_14/00_The_Central_Limit_Theorem.html)
+: **Homework**{: .label .label-hw } Homework 8
+    : Due Oct 16 at 5PM
+: **Lab**{: .label .label-hw } Lab 6A: Densities and SymPy
+    : Due Oct 16 at 5PM
 
-Aug 8
-: **Lecture 28**{: .label .label-lecture } Buffer/Review
-: **Section 14**{: .label .label-disc }
+Oct 11
+: **Section**{: .label .label-disc}
 
+Oct 12
+: **Lecture**{: .label .label-lecture} Probability densities
+    : Ch [15](http://prob140.org/textbook/content/Chapter_15/00_Continuous_Distributions.html)
 
-Aug 9
-: **Lecture 29**{: .label .label-lecture } Buffer/Review
-
-Aug 10
-: **Final Exam**{: .label .label-exam } From 10:30 AM - 1:30 PM
+Oct 13
+: **Mega-Section**{: .label .label-disc}
