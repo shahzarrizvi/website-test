@@ -3,7 +3,7 @@ title: 'Week 11: MGFs, MLE, and MAP'
 ---
 
 Oct 30
-: **Midterm 2**{: .label .label-exam }
+: **Exam**{: .label .label-exam } Midterm 2
     : **7PM - 9PM**
 
 Oct 31

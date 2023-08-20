@@ -3,7 +3,7 @@ title: 'Week 6: Markov Chain Monte Carlo'
 ---
 
 Sep 25
-: **Midterm 1**{: .label .label-exam }
+: **Exam**{: .label .label-exam } Midterm 1
     : **7PM - 9PM**
 
 Sep 26
