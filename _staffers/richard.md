@@ -2,7 +2,7 @@
 name: Richard Wang
 pronouns: he/him
 team: Staff
-role: Reader
+role: uGSI
 email: richardrwang
 photo: richard.jpg
 ---
