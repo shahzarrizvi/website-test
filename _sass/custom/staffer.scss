@@ -1,3 +1,9 @@
+.role {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $sp-5;
+}
+
 .staffer {
   display: flex;
   margin: $sp-4 0;
