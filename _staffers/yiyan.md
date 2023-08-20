@@ -1,5 +1,6 @@
 ---
 name: Yiyan Hao
+pronouns: she/her
 team: Staff
 role: uGSI
 email: yiyan.hao
