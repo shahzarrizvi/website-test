@@ -2,6 +2,10 @@
 title: 'Week 11: MGFs, MLE, and MAP'
 ---
 
+Oct 30
+: **Midterm 2**{: .label .label-exam }
+    : **7PM - 9PM**
+
 Oct 31
 : **Lecture**{: .label .label-lecture } Moment generating functions; Chernoff bound
     : Ch [19](http://prob140.org/textbook/content/Chapter_19/00_Distributions_of_Sums.html)
